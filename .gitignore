@@ -1,0 +1,101 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.gradle/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore files
+*.jks
+
+# Gradle files
+.gradle/
+build/
+**/build/
+local.properties
+.gradle/
+gradle-app.setting
+
+# Ignore Gradle Wrapper files
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Ignore generated files
+/build/
+/out/
+/bin/
+/gen/
+/target/
+/*.apk
+/*.ap_/
+/*.dex
+/*.class
+
+# IntelliJ specific files
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux specific files
+*~
+
+# Log files
+*.log
+
+# Coverage results
+*.coverdata
+*.coverage
+*.coveragexml
+*.gcov
+*.hprof
+
+# Virtual Machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Ignore Gradle project-specific cache directory
+.gradle/
+build/
+
+# Ignore local configuration file (sdk path, etc)
+local.properties
+
+# Ignore specific files related to the Android build process
+captures/
+output.json
+crashlytics.properties
+
+# Ignore Kotlin build files
+*.kotlin_module
+.idea/workspace.xml
+.idea/libraries
+
+# Ignore any files that start with .#
+.#*
+
+# Ignore any .log files
+*.log
+
+# Ignore specific temp files
+*.temp
+*.tmp
+
+# Ignore specific backup files
+*.bak
+
+# Ignore specific temporary files
+*.swp
+*.swo
+
+# Ignore any generated file with the name lint*
+lint*
